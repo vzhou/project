@@ -1,4 +1,4 @@
-body {
+.container {
   font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -10,6 +10,12 @@ form {
 
 }
 
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 8px 8px 8px 8px;
+
+}
 
 .custom-button {
   display: inline-block;
