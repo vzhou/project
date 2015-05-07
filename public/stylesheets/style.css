@@ -1,19 +1,67 @@
-.container {
-  font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  text-align: center;
+.form-container {
+  margin: 20px auto;
+  width: 343px; 
+  height: 464px; 
+  -webkit-border-radius: 8px/7px; 
+  -moz-border-radius: 8px/7px; 
+  border-radius: 8px/7px; 
+  background-color: #ebebeb; 
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  border: solid 1px #cbc9c9;
 }
-form {
-  margin-left: auto;
-  margin-right: auto;
 
+h1 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #4c4c4c;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+form {
+  margin: 0 30px;
 }
 
 input {
   border: 1px solid #ccc;
   border-radius: 4px;
   margin: 8px 8px 8px 8px;
+  width: 80%;
+
+}
+
+/*
+.gender {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+*/
+
+
+input[type=radio] {
+  display: inline;
+  width: 10%;
+}
+
+label.radio {
+  overflow: visible;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+
+input[type=button], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 25px;
 
 }
 
